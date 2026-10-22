@@ -6,6 +6,7 @@ const sideImg = document.createElement("div");
 
 
 title.textContent = "A Little About Us";
+title.classList.add("header-text")
 aboutDiv.appendChild(title);
 
 paragraph.textContent = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit ducimus accusamus, vero sit voluptate corporis quo labore voluptatem! Accusantium, dolor"
