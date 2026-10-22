@@ -1,6 +1,11 @@
-import navbar from "./navbar.js";
 
-const navContainer = document.getElementById("nav-container");
+import home from "./home.js";
+import about from "./about.js";
+import "./style.css";
 
-navContainer.appendChild(navbar);
 
+console.log("Hello");
+
+content.appendChild(home);
+
+content.appendChild(about);
