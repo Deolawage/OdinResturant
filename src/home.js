@@ -1,10 +1,10 @@
 //home.js
+
+export default function home(){
 const container = document.createElement("div");
 const header = document.createElement("h1");
 const para = document.createElement("p");
 const secondPara = document.createElement("p")
-
-
 
 header.textContent = "Welcome to FoodPlace";
 header.classList.add("header-text");
@@ -19,6 +19,12 @@ secondPara.classList.add("para");
 container.appendChild(secondPara);
 
 
-export default container;
+return container;
+
+}
+
+
+
+
 
 

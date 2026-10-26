@@ -9,12 +9,14 @@ export default function menu() {
 
     const description = document.createElement("p");
     description.textContent = "Explore our delicious selection of meals.";
+    description.classList.add("para");
     menuDiv.appendChild(description);
 
     const foodItems = [
         { name: "Jollof Rice", description: "Flavorful rice cooked in a rich tomato sauce." },
         { name: "Grilled Chicken", description: "Tender chicken seasoned and grilled to perfection." },
-        { name: "Spaghetti", description: "Delicious spaghetti served with a savory sauce." }
+        { name: "Spaghetti", description: "Delicious spaghetti served with a savory sauce." },
+        {name: "Fried Rice", description: "Nice Fried Rice Served with Boiled Chcken."}
     ];
 
     const menuList = document.createElement("ul");

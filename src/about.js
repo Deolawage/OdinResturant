@@ -1,3 +1,5 @@
+
+export default function about(){
 const aboutDiv = document.createElement("div");
 const title = document.createElement("h2");
 const paragraph = document.createElement("p");
@@ -16,4 +18,5 @@ aboutDiv.appendChild(paragraph);
 sideImg.classList.add("about-img");
 aboutDiv.appendChild(sideImg);
 
-export default aboutDiv;
+return aboutDiv;
+}
